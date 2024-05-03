@@ -59,7 +59,6 @@ body {
 }
 
 /*header section*/
-
 .header_section .header_container {
   display: flex;
   justify-content: space-between;
@@ -124,14 +123,6 @@ a:focus {
   color: #0a0057;
 }
 
-.custom_nav-container .navbar-toggler {}
-
-.custom_nav-container .navbar-toggler .navbar-toggler-icon {}
-
-.custom_nav-container .nav_search-btn{}
-
-.navbar{}
-
 .nav-link:hover {
   text-transform: uppercase;
   font-weight: bold;
@@ -167,7 +158,6 @@ a:focus {
   background-image: url(../images/menu.png);
   background-size: 48px;
 }
-
 /*end header section*/
 
 /* slider section */
@@ -286,8 +276,6 @@ a:focus {
 .slider_section .carousel-indicators .active {
   background-color: #0a0057;
 }
-
-
 /* end slider section */
 
 /* about section */
@@ -295,7 +283,6 @@ a:focus {
   padding-top: 50px;
   position: relative;
 }
-
 
 .about_section::before {
   content: "";
@@ -370,7 +357,6 @@ a:focus {
   
   right: 0;
   bottom: 25%;
-
 }
 
 .about_img-box::after {
@@ -385,7 +371,6 @@ a:focus {
   background-position: 15px;
   background-repeat: no-repeat;
 }
-
 /* end about section */
 
 /* service section */
@@ -431,13 +416,9 @@ a:focus {
   color: #fff;
   border-radius: 25px;
 }
-
 /* service section */
 
 /* shop section */
-
-.shop_section {}
-
 .shop_section .row {
   margin-top: 100px;
   background-color: #0a0057;
@@ -468,7 +449,6 @@ a:focus {
   margin-left: -50px;
   margin-bottom: 50px;
 }
-
 /* end shop section */
 
 /* client section */
@@ -507,11 +487,6 @@ a:focus {
   color: #fff;
 }
 
-.client_box .client_img {
-
-
-}
-
 .client_section .carousel-indicators {
   position: absolute;
   top: 115%;
@@ -534,7 +509,6 @@ a:focus {
 .client_section .carousel-indicators .active {
   background-color: #78cffd;
 }
-
 /* end client section */
 
 /* company section */
@@ -552,11 +526,9 @@ a:focus {
   color: #0a0057;
   width: 85%;
 }
-
 /* end company section */
 
 /* contact_section */
-
 .contact_section .col-md-6 {
   padding: 0;
 }
@@ -595,20 +567,14 @@ a:focus {
   margin-top: 20px;
 }
 
-
 .contact_form-container::before {
   content: "";
   width: 50px;
   height: 50px;
   background-color: #78cffd;
-
-  /* right: 0; */
-  /* bottom: 25%; */
   left: -50px;
   top: 15%;
-
 }
-
 /* end contact_section */
 
 /* info section */
@@ -618,7 +584,6 @@ a:focus {
   color: #fff;
   background-image: url(../images/info-bg.png);
   background-size: 100% 101%;
-
   background-repeat: no-repeat;
   font-family: "Poppins", sans-serif;
 }
@@ -635,9 +600,7 @@ a:focus {
 
 
 .info_section h5 {
-
   font-size: 22px;
-
 }
 
 .info_section a,
@@ -711,10 +674,9 @@ a:focus {
 .info_social a img {
   width: 30px;
 }
-
 /* end info section */
-/* footer section*/
 
+/* footer section*/
 .footer_section {
   background-color: #78cffd;
   font-family: "Roboto", sans-serif;
@@ -729,5 +691,4 @@ a:focus {
 .footer_section a {
   color: #fff;
 }
-
 /* end footer section*/
