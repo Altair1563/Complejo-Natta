@@ -771,6 +771,17 @@ a:focus {
   text-align: center;
 }
 
+.wp-block-column1{
+  color: white;
+  background-color: #02caf0;
+  border-radius: 25px;
+}
+.wp-block-column2{
+  color: white;
+  background-color: #0a0057;
+  border-radius: 25px;
+}
+
 .wp-block-column.is-vertically-aligned-top {
   align-self: flex-start
 }
