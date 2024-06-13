@@ -28,17 +28,20 @@ body {
   padding-bottom: 45px;
 }
 
+/*fondo principal*/
 .hero_area {
   height: 98vh;
-  background-image: url(../images/fondo1.png);
+  background-image: url(../images/fondo-principal.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
   position: relative;
 }
 
+/*fondo secundario*/
 .hero_area.custom_page-height {
-  height: 240px;
+  background-image: url(../images/fondo-secundario.jpg);
+  height: 280px;
 }
 
 .hero_area.custom_page-height::after {
@@ -97,7 +100,7 @@ body {
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
-  padding: 10px 15px;
+  padding: 10px 25px;
   color: black;
   text-align: center;
   font-size: 22px;
@@ -1019,5 +1022,5 @@ ul.tabs {
 }
 
 .one_half {
-  margin: 10px ;
+  margin-top: 30px;
 }
