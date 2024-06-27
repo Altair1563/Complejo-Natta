@@ -834,6 +834,12 @@ a:focus {
 .sp-schemes .section-header .widget-title .rsswidget { 
 	color: #fff; 
 }
+
+.sidebarheader{
+  position: relative;
+  top: 5px;
+}
+
 .sidebar .widget.widget_text select { width: 100%; margin: 0; }
 .sidebar .widget ul, .sidebar .widget.widget_rss ul, .sidebar .widget .calendar_wrap, .sidebar .widget .textwidget, .sidebar .widget.widget_rss ul
 .sidebar .widget .gallery, .sidebar .widget img.image, .sidebar .widget .search-form, .sidebar .widget .tagcloud, 
