@@ -885,13 +885,6 @@ aside {
 	padding:0 20px 20px 20px;
 }
 
-
-
-h4.sidebarheader {
-	margin-top:20px;
-	margin-bottom:15px;
-	text-transform:uppercase;
-}
 .recentnews {
 	margin-bottom:30px;
   
@@ -927,9 +920,6 @@ ul.tabs:after {
 }
 ul.tabs {
 	zoom: 1;
-}
-.latestphotos {
-	margin-bottom:10px;
 }
 
 .shadow1 {
